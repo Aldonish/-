@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import requests
 ##погода сейчас
 city = "Moscow,RU"
@@ -22,4 +21,3 @@ print("Прогноз погоды на неделю:")
 for i in data['list']:
     print("Дата <", i['dt_txt'], "> \r\nТемпература <",'{0:+3.0f}'.format(i['main']['temp']),"> \r\nПогодные условия <", i['weather'][0]['description'], "> \r\nВидимость <", i['visibility'],"> \r\nСкорость ветра <", i['wind']["speed"],">")
     print("____________________________")
->>>>>>> 0f17457541bf3d403449e3a2e637fc828da830b8
